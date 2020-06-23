@@ -2,18 +2,9 @@
 
 {% block content %}
 
-    
+<h2 style="text-align: center">{{ search | title }}</h2>
 
-    <!-- use post in forms instead of get -->
-<form action="{% url 'new_search' %}" method='post'>
-    
-    {% csrf_token %}
-    <input type="text" name='search' placeholder="search">
-    
-    <button class="btn waves-effect waves-light" type="submit" name="action">Submit
-        <i class="material-icons right">flash_on</i>
-    </button>
-        
-</form>
+
+
 
 {% endblock %}
