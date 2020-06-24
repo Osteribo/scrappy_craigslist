@@ -10,7 +10,7 @@ click==7.1.1
 colorama==0.4.3
 defusedxml==0.6.0
 diff-match-patch==20181111
-Django==3.0.5
+Django==3.0.7
 django-import-export==2.0.2
 docutils==0.15.2
 ecdsa==0.15
